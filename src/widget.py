@@ -1,5 +1,5 @@
 def mask_account_card(data: str) -> str:
-    ''' Маскирует номер карты или счета в переданной строке '''
+    """Маскирует номер карты или счета в переданной строке"""
 
     # Разделяем строку на слова
     parts = data.split()
@@ -34,10 +34,10 @@ def get_date(date_string: str) -> str:
     """
     try:
         # Разделяем дату и время
-        date_part = date_string.split('T')[0]
+        date_part = date_string.split("T")[0]
 
         # Разделяем год, месяц, день
-        year, month, day = date_part.split('-')
+        year, month, day = date_part.split("-")
 
         # Форматируем в нужный вид
         return f"{day}.{month}.{year}"
