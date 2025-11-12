@@ -1,5 +1,5 @@
 import pytest
-from your_module import get_mask_card_number  # Замените your_module на имя вашего модуля
+from test_get_mask_card import get_mask_card_number  # Замените your_module на имя вашего модуля
 
 
 @pytest.mark.parametrize("invalid_input", [

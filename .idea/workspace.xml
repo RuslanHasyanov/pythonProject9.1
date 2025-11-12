@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2db1e174-5486-406e-87ee-476ac6554020" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/src/.flake8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_filter_by_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_filter_by_state.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_get_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_date.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_get_mask_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_mask_account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_get_mask_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_mask_card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_mask_account_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_mask_account_card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_sort_by_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_sort_by_date.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
