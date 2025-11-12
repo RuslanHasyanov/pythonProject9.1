@@ -8,12 +8,13 @@ from processing import filter_by_state
         "",
         "UNKNOWN_STATE"
 
-@pytest.mark.parametrize("state, expected_count, expected_ids", [
+@pytest.mark.parametrize("state, expected_count, expected_ids"), [
         ("EXECUTED", 3, [1, 3, 5]),
         ("PENDING", 2, [2, 6]),
         ("CANCELED", 1, [4]),
         ("COMPLETED", 0, []),  # Несуществующий статус
-        ("executed", 0, []),   # Регистрозависимый поиск
+        ("executed", 0, []),] # Регистрозависимый поиск
+
 
 def test_empty_list_input(self, empty_data):
     """Тестирование с пустым списком на входе"""

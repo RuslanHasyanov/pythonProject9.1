@@ -1,8 +1,10 @@
 import pytest
-import re
+import mask_account_card
 
 
-@pytest.mark.parametrize("invalid_input", [
+@pytest.mark.parametrize(
+    "invalid_input",
+    [
         None,  # None
         "",  # Пустая строка
         "   ",  # Только пробелы
@@ -11,8 +13,9 @@ import re
         "1234abc5678def9012",  # Буквы в номере
         "1234!@#$5678%^&*9012",  # Спецсимволы
         "1234 5678 9012 345",  # Неправильная длина для карты
-        "1234567890123456789",  # Неправильная длина для счета
-
+        "1234567890123456789",
+    ],
+)  # Неправильная длина для счета
 def test_invalid_input(self, invalid_input):
     """Тестирование обработки некорректных входных данных"""
     with pytest.raises((ValueError, TypeError)):
